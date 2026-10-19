@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESC}}">
+<link rel="canonical" href="{{CANONICAL}}">
+<meta property="og:title" content="{{TITLE}}">
+<meta property="og:description" content="{{DESC}}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{CANONICAL}}">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Karla:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="index.html">Melissa McKenna<small>Licensed Clinical Social Worker</small></a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" aria-label="Main">
+      <ul>
+        <li><a href="work-with-me.html"{{ON_WORK}}>Work with me</a></li>
+        <li><a href="intensives.html"{{ON_INTENSIVES}}>Intensives</a></li>
+        <li><a href="mentorship.html"{{ON_MENTORSHIP}}>Mentorship</a></li>
+        <li><a href="about.html"{{ON_ABOUT}}>About</a></li>
+        <li><a href="faq.html"{{ON_FAQ}}>Questions</a></li>
+        <li><a class="btn small" href="{{BOOKING_URL}}">Free 15-minute call</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
