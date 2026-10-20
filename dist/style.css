@@ -143,5 +143,5 @@ summary::after { color: var(--creek); }
 .quote { color: var(--deep); }
 
 .brand { display: flex; align-items: center; gap: 12px; }
-.brand-mark { width: 32px; height: 40px; flex: none; }
+.brand-mark { width: 38px; height: 42px; flex: none; }
 .brand span { line-height: 1.15; }
