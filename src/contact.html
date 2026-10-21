@@ -4,33 +4,16 @@
   <div class="wrap narrow">
     <p class="eyebrow">Contact</p>
     <h1>Let's see if we fit.</h1>
-    <p class="lede">The fastest way is a free 15-minute call. If you'd rather write first, use the form below. To message me through the secure client portal instead, <a href="https://melissa-mckenna.clientsecure.me/contact-widget">use this secure contact form</a>.</p>
+    <p class="lede">The fastest way is a free 15-minute call. If you'd rather write first, use the secure form below.</p>
     <div class="btn-row"><a class="btn" href="{{BOOKING_URL}}">New client? Request a free 15-minute call</a><a class="btn ghost" href="{{INTENSIVE_BOOKING_URL}}">Ask about an intensive</a></div>
   </div>
 </section>
 <section id="inquiry" style="padding-top:24px">
   <div class="wrap narrow">
-    <h2>Send a message</h2>
-    <p>I reply within one business day, usually sooner. Please don't include clinical details in this form or in email. This channel isn't secure, and we'll cover the important parts on a call or in a secure portal.</p>
-    <form action="{{FORM_ACTION}}" method="post" {{FORM_ENCTYPE}}>
-      <p class="hp"><label>Leave this empty <input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></p>
-      <input type="hidden" name="_subject" value="New inquiry from the website">
-      <div><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required></div>
-      <div><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
-      <div><label for="interest">I'm interested in</label>
-        <select id="interest" name="interest">
-          <option>Weekly therapy</option>
-          <option>A private intensive</option>
-          <option>Couples or relationship therapy</option>
-          <option>Training or consulting for my team</option>
-          <option>I'm not sure yet</option>
-        </select></div>
-      <div><label for="msg">Anything you'd like me to know first? (optional)</label><textarea id="msg" name="message" placeholder="Practical things are great: timing, what you're looking for, questions about fit."></textarea></div>
-      <div><label for="loc">Will you be in California during sessions?</label>
-        <select id="loc" name="in_california"><option>Yes</option><option>No</option><option>Sometimes, I travel</option></select></div>
-      <p class="small">By sending this, you agree to be contacted by email about your inquiry. I don't add you to any mailing list unless you ask.</p>
-      <div><button class="btn" type="submit">Send</button></div>
-    </form>
+    <h2>Send me a message</h2>
+    <p>This form goes straight into my secure practice system, so it's a private way to reach me. It's the right place for questions about therapy, intensives or mentorship. I reply within one business day, usually sooner.</p>
+    <div class="btn-row"><a class="btn" href="https://melissa-mckenna.clientsecure.me/contact-widget">Open the secure contact form</a></div>
+    <p class="small">You don't need to share clinical details to reach out. We'll cover the important parts on a call or in the client portal.</p>
   </div>
 </section>
 {{> footer}}

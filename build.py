@@ -27,7 +27,6 @@ if not cfg.get("INTENSIVE_BOOKING_URL"):
 if not cfg.get("FORM_ACTION"):
     cfg["FORM_ACTION"] = "mailto:" + cfg["EMAIL"]
     cfg["FORM_ENCTYPE"] = 'enctype="text/plain"'
-    warnings.append("FORM_ACTION empty: the inquiry form opens the visitor's email app instead of posting. Paste your Formspree/Tally endpoint to fix.")
 else:
     cfg["FORM_ENCTYPE"] = ""
 cfg.setdefault("PATIENT_PORTAL_URL", "")
@@ -86,7 +85,7 @@ for f in sorted(SRC.glob("*.html")):
     vars_["CANONICAL"] = cfg["DOMAIN"] + "/" + ("" if f.name == "index.html" else f.name)
     out = render(body, vars_)
     (DIST / f.name).write_text(out, encoding="utf-8")
-    if f.name not in ("404.html", "thanks.html"):
+    if f.name not in ("404.html", "thanks.html") and not f.name.startswith("welcome"):
         pages.append(f.name)
 
 for f in SRC.iterdir():
