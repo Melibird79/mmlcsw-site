@@ -1,0 +1,53 @@
+/* Onboarding slide decks. Builds on style.css variables. */
+body.deck { min-height: 100vh; display: flex; flex-direction: column; }
+.deck-top { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px 20px; border-bottom: 1px solid var(--line); background: var(--bg); }
+.deck-top .brand { display: flex; align-items: center; gap: 10px; }
+.deck-top .brand-mark { width: 30px; height: 33px; flex: none; }
+.deck-for { margin: 0; font-size: .85rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+
+.progress { height: 6px; background: var(--sand); }
+.progress span { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--creek), var(--clay)); transition: width .25s ease; }
+
+.deck-main { flex: 1; width: 100%; max-width: 760px; margin: 0 auto; padding: 36px 20px 24px; }
+.slide { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 34px 32px; box-shadow: 0 6px 24px rgba(43, 42, 38, .06); margin-bottom: 24px; }
+.js .slide { display: none; margin-bottom: 0; min-height: 52vh; }
+.js .slide.on { display: block; animation: rise .28s ease both; }
+@keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .js .slide.on { animation: none; } .progress span { transition: none; } }
+
+.kicker { margin: 0 0 8px; font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; color: var(--creek); font-weight: 700; }
+.slide h2 { color: var(--ink); margin-bottom: .6em; }
+.slide .big { font-family: var(--serif); font-size: 1.6rem; line-height: 1.3; color: var(--clay-dark); }
+.slide ul, .slide ol { padding-left: 1.2em; margin: 0 0 1.1em; }
+.slide li { margin-bottom: .6em; }
+.slide .note { font-size: .95rem; color: var(--muted); background: var(--sand); border-radius: 10px; padding: 12px 14px; }
+.steps { counter-reset: s; list-style: none; padding-left: 0 !important; }
+.steps li { counter-increment: s; position: relative; padding-left: 46px; margin-bottom: 1em; }
+.steps li::before { content: counter(s); position: absolute; left: 0; top: -2px; width: 32px; height: 32px; border-radius: 50%; background: var(--creek); color: #fff; font-weight: 700; display: grid; place-items: center; }
+.check { list-style: none; padding-left: 0 !important; }
+.check li label { display: flex; gap: 12px; align-items: flex-start; cursor: pointer; }
+.check input { width: 22px; height: 22px; margin-top: 3px; accent-color: var(--moss); flex: none; }
+
+.calc { background: var(--sand); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.1em; }
+.calc label { font-weight: 700; margin-right: 8px; }
+.calc select { font: inherit; padding: 8px 12px; border-radius: 8px; border: 1px solid var(--line); background: #fff; }
+.calc .result { margin: 12px 0 0; font-family: var(--serif); font-size: 1.25rem; color: var(--clay-dark); }
+
+.deck-nav { position: sticky; bottom: 0; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 20px; background: color-mix(in srgb, var(--bg) 94%, transparent); backdrop-filter: blur(8px); border-top: 1px solid var(--line); }
+.js .deck-nav { display: flex; }
+.deck-nav .btn { min-width: 96px; text-align: center; cursor: pointer; font: inherit; font-weight: 700; }
+.deck-nav .btn[disabled] { opacity: .35; cursor: default; transform: none; }
+#count { color: var(--muted); font-size: .95rem; }
+body.deck:not(.js) .deck-nav { display: none; }
+
+.choose h1 { font-size: clamp(1.9rem, 4.6vw, 2.8rem); }
+.choices { display: grid; gap: 14px; margin: 26px 0; }
+.choice { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 20px 22px; background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); text-decoration: none; color: var(--ink); font-size: 1.15rem; transition: border-color .12s ease, transform .12s ease; }
+.choice:hover { border-color: var(--clay); transform: translateY(-1px); color: var(--ink); }
+.choice span { color: var(--clay-dark); font-weight: 700; }
+
+@media (max-width: 560px) {
+  .slide { padding: 26px 20px; }
+  .deck-for { display: none; }
+}
+@media print { .deck-nav, .progress, .deck-top { display: none; } .js .slide { display: block !important; break-inside: avoid; box-shadow: none; } }
