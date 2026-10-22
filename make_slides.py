@@ -61,7 +61,7 @@ PRIVACY = ("Privacy, and where it stops", """
 <li>If a child, an older adult or a dependent adult is being harmed.</li>
 <li>If a court orders records.</li>
 </ul>
-<p>Keep anything about your care in the client portal. Regular email and text aren't secure, so use them only for scheduling.</p>
+<p>Text and email aren't fully secure, since your phone company or anyone with your phone could see them. They're fine for scheduling and short check-ins. Keep the details of what you're working through for our sessions or the client portal.</p>
 """)
 
 SAFETY = ("If things get hard between sessions", """
@@ -77,8 +77,8 @@ SAFETY = ("If things get hard between sessions", """
 CONTACT = ("Staying in touch", """
 <ul>
 <li><strong>Client portal:</strong> the best place for anything about your care, scheduling and forms.</li>
-<li><strong>Email:</strong> <a href="mailto:{{EMAIL}}">{{EMAIL}}</a>, for logistics only, no clinical details.</li>
-<li><strong>Phone:</strong> {{PHONE}}, for scheduling and urgent logistics. I may not answer live. Leave a message.</li>
+<li><strong>Email:</strong> <a href="mailto:{{EMAIL}}">{{EMAIL}}</a>, for logistics. Keep clinical details for sessions or the portal.</li>
+<li><strong>Phone and text:</strong> {{PHONE}}. Text me for scheduling and quick check-ins. I may not answer live, so leave a message or text.</li>
 <li><strong>My hours:</strong> I see clients Monday through Thursday. I reply to messages within one business day.</li>
 </ul>
 """)
