@@ -124,7 +124,7 @@ CASH_MONEY = ("Fees and payment", """
 CASH_CANCEL = ("Cancelling or rescheduling", """
 <p>Life gets in the way, and I get that. Please tell me by <strong>3:00 PM the day before</strong> your session if you need to cancel or change it. That gives me time to offer the slot to someone else.</p>
 {CALC}
-<p>If you cancel after that, or miss the session, the full session fee applies. If something truly out of your control happens, tell me and I'll consider it. If sessions are repeatedly missed, I may stop scheduling you.</p>
+<p>If you cancel after that, or miss the session, the full session fee applies. If something truly out of your control happens, tell me and I'll consider it. If sessions are excessively missed, I may stop scheduling you, and telling me what's going on always counts.</p>
 """)
 
 INS_MONEY = ("How insurance works with me", """
@@ -154,7 +154,7 @@ INS_ASK = ("Questions to ask your insurance", """
 INS_CANCEL = ("Cancelling or rescheduling", """
 <p>Please tell me by <strong>3:00 PM the day before</strong> your session if you need to cancel or change it. That gives me time to offer the slot to someone else.</p>
 {CALC}
-<p>If you cancel after that, or miss the session, the full session fee applies. Insurance doesn't reimburse missed sessions. If something truly out of your control happens, tell me and I'll consider it. If sessions are repeatedly missed, I may stop scheduling you.</p>
+<p>If you cancel after that, or miss the session, the full session fee applies. Insurance doesn't reimburse missed sessions. If something truly out of your control happens, tell me and I'll consider it. If sessions are excessively missed, I may stop scheduling you, and telling me what's going on always counts.</p>
 """)
 
 MC_MONEY = ("Your Medi-Cal coverage", """
@@ -179,7 +179,7 @@ MC_LEVEL = ("Is this the right level of care?", """
 MC_CANCEL = ("Cancelling and missed sessions", """
 <p>Missing a session never costs you money. It does cost another person a spot, and it costs you momentum, so please tell me as early as you can.</p>
 {CALC}
-<p>Here's the deadline I ask for: <strong>3:00 PM the day before</strong>. After three late cancellations or no-shows within a year, I end treatment. As with any client, I may also stop scheduling you if sessions are repeatedly missed.</p>
+<p>Here's the deadline I ask for: <strong>3:00 PM the day before</strong>. After three late cancellations or no-shows within a year, I end treatment. As with any client, I may also stop scheduling you if sessions are excessively missed.</p>
 """)
 
 DECKS = {
