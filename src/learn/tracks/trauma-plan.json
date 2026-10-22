@@ -1,0 +1,324 @@
+{
+ "id": "trauma-plan",
+ "title": "Four Weeks of Steady Ground",
+ "short": "Trauma · Practice plan",
+ "kind": "plan",
+ "screens": [
+  {
+   "t": "cover",
+   "id": "cover",
+   "eyebrow": "A practice plan for my clients · Trauma",
+   "title": "Four Weeks of Steady Ground",
+   "sub": "Deepening what you started, in small doses, inside your window",
+   "byline": "Set-up takes about 15 minutes. After that, five to ten minutes on most days."
+  },
+  {
+   "t": "intro",
+   "id": "intro",
+   "title": "How the plan works",
+   "blocks": [
+    {
+     "h": "Five to ten minutes",
+     "p": "On most days. That is the dose. Going slower is always allowed."
+    },
+    {
+     "h": "Stay inside your window",
+     "p": "Rate how you feel from 0 (calm) to 10 (very distressed). Stay at about a 3 or below. Above a 4, stop and orient. That is the rule, not a failure."
+    },
+    {
+     "h": "We do not go into what happened",
+     "p": "Everything here is about now. If memories come up, you do not have to follow them. Orient, then tell me in session."
+    },
+    {
+     "h": "Come back each week",
+     "p": "Use the section name at the top to jump to your week. Each week takes about four minutes to read and set up."
+    }
+   ],
+   "note": "Finished Steady Ground first? Good, this builds on it. If not, start there. Not for everyone: if it ever feels like too much, tell me and we will change it."
+  },
+  {
+   "t": "consent",
+   "id": "consent"
+  },
+  {
+   "t": "statement",
+   "id": "idea",
+   "text": "Regulation is not staying calm. It is getting back.",
+   "sub": "Everyone floods sometimes, loud or quiet. Repair is the skill.",
+   "eyebrow": "The idea"
+  },
+  {
+   "t": "cards",
+   "id": "rhythm",
+   "title": "The four weeks",
+   "cards": [
+    {
+     "h": "Week 1: Orient",
+     "p": "Tell your body where and when it is, every day."
+    },
+    {
+     "h": "Week 2: Resource",
+     "p": "Find something steady and let your body get to know it."
+    },
+    {
+     "h": "Week 3: Return and repair",
+     "p": "Practice coming back, and being kind to the part that left."
+    },
+    {
+     "h": "Week 4: Rhythm",
+     "p": "Decide what stays, in the smallest version that still works."
+    }
+   ],
+   "eyebrow": "The shape of it"
+  },
+  {
+   "t": "video",
+   "id": "overview",
+   "title": "How the four weeks fit together",
+   "minutes": 2,
+   "summary": "A walk through the plan, the 3-or-below rule, and when to stop and tell me.",
+   "bullets": [
+    "What each week is for",
+    "How to check your distress level",
+    "What to bring to session"
+   ]
+  },
+  {
+   "t": "cards",
+   "id": "w1",
+   "title": "Week 1: Orient",
+   "cards": [
+    {
+     "h": "Once a day",
+     "p": "Orienting, one to two minutes, same time most days. It comes before any breath work."
+    },
+    {
+     "h": "Twice a day",
+     "p": "A ten-second check-in: revved up, in your window, or powered down? Just notice."
+    },
+    {
+     "h": "Once this week",
+     "p": "Pick one early signal: the first body sign that your alarm is going off."
+    }
+   ],
+   "intro": "This week you are collecting information, not fixing anything.",
+   "eyebrow": "This week",
+   "section": "Week 1 · Orient"
+  },
+  {
+   "t": "practice",
+   "id": "w1-orient",
+   "title": "Here, now, this room",
+   "steps": [
+    "Let your head and eyes turn slowly. Take in the room one piece at a time.",
+    "Find something in a color you like. Rest your eyes there.",
+    "Notice one sound near you and one farther away.",
+    "Feel your feet and what is holding you. Say, \"It is today. I am here.\""
+   ],
+   "eyebrow": "Orienting · 1 to 2 minutes",
+   "guide": [
+    {
+     "text": "Let your eyes move slowly around the room. No hurry.",
+     "secs": 10
+    },
+    {
+     "text": "Find something you like the look of. Let your eyes rest on it.",
+     "secs": 10
+    },
+    {
+     "text": "Notice one sound close to you and one sound farther away.",
+     "secs": 10
+    },
+    {
+     "text": "Feel your feet on the floor. Press them down a little.",
+     "secs": 10
+    },
+    {
+     "text": "Feel what is holding you up: the chair, the bed, the floor.",
+     "secs": 10
+    },
+    {
+     "text": "Say, out loud or in your head: \"It is today. I am here.\"",
+     "secs": 10
+    },
+    {
+     "text": "Let your breath do whatever it wants. You do not have to manage it.",
+     "secs": 10
+    }
+   ],
+   "guideTitle": "A guided minute",
+   "guideEnd": "Good. Notice if anything is even a little different.",
+   "cautions": [
+    "Eyes stay open.",
+    "If anything feels strange, look at something familiar and say today's date out loud."
+   ],
+   "section": "Week 1 · Orient"
+  },
+  {
+   "t": "tracker",
+   "id": "w1-track",
+   "title": "Week 1 tracker",
+   "rows": [
+    "Orienting",
+    "Check-in (morning)",
+    "Check-in (evening)"
+   ],
+   "intro": "Tick a box when you do it. Skipped days are just days.",
+   "eyebrow": "Track",
+   "section": "Week 1 · Orient"
+  },
+  {
+   "t": "reflect",
+   "id": "w1-reflect",
+   "title": "What did you notice this week?",
+   "prompt": "When did your alarm go off this week, and what helped you remember it was now?",
+   "style": "plan",
+   "focus": "Keep to the present and to what helped. Do not ask what the alarm was about.",
+   "placeholder": "For example: in the grocery store, my chest tightened and I looked at the shelves...",
+   "eyebrow": "Reflect",
+   "optional": true,
+   "section": "Week 1 · Orient"
+  },
+  {
+   "t": "practice",
+   "id": "w2-resource",
+   "title": "Find something steady",
+   "steps": [
+    "Think of something that feels steady, kind, or safe enough: a place, an object, a pet, a person, a color. Choose something simple, and avoid anything tied up with loss or mixed feelings.",
+    "Look at it, or hold it in mind, for about twenty seconds.",
+    "Notice your body. Anything softer, warmer, heavier, or easier? Even slightly?",
+    "If you notice nothing, or it stirs something hard, stop and orient. Try a different resource another day."
+   ],
+   "lead": "A resource is not a cure. It is a place for your body to rest a little.",
+   "eyebrow": "Practice · 2 to 3 minutes",
+   "cautions": [
+    "Stay at about a 3 out of 10 or below.",
+    "Later, in session, we may practice moving attention gently between something steady and something a bit uncomfortable. That is not for doing alone yet."
+   ],
+   "section": "Week 2 · Resource"
+  },
+  {
+   "t": "tracker",
+   "id": "w2-track",
+   "title": "Week 2 tracker",
+   "rows": [
+    "Orienting",
+    "Resource practice",
+    "A small shift noticed"
+   ],
+   "intro": "Orienting stays on the list. It is your base.",
+   "eyebrow": "Track",
+   "section": "Week 2 · Resource"
+  },
+  {
+   "t": "video",
+   "id": "repair-video",
+   "title": "Return and repair: being kind to the part that left",
+   "minutes": 3,
+   "summary": "How to come back to now, and how to be gentle with the part that protected you in the moment.",
+   "bullets": [
+    "Leaving your window is human",
+    "Settle first, then repair",
+    "Kindness toward a part that did its job"
+   ],
+   "section": "Week 3 · Return and repair"
+  },
+  {
+   "t": "practice",
+   "id": "w3-repair",
+   "title": "Return, then repair",
+   "steps": [
+    "Notice: \"I have left my window.\" Name it: \"A part of me is revved up,\" or \"powered down.\"",
+    "Orient first. Then the cooling breath if you are revved up and it suits you. Notice what is even slightly different.",
+    "When you are settled, say what happened plainly, with no verdict: \"I went quiet in the meeting.\"",
+    "Thank the part: \"You were trying to protect me.\" Ask what it needed. Listen for a word or a feeling, not a story.",
+    "Offer it one small thing, such as a hand on your chest or a glass of water."
+   ],
+   "lead": "Keep the parts language light. Names like the Guard or the Tender One are optional.",
+   "eyebrow": "For after you froze, snapped, or went quiet",
+   "note": "Repair is not about being perfect. It is about not leaving yourself alone in it.",
+   "section": "Week 3 · Return and repair"
+  },
+  {
+   "t": "tracker",
+   "id": "w3-track",
+   "title": "Week 3 tracker",
+   "rows": [
+    "Orienting",
+    "A return",
+    "A repair (any size)"
+   ],
+   "eyebrow": "Track",
+   "section": "Week 3 · Return and repair"
+  },
+  {
+   "t": "reflect",
+   "id": "w3-reflect",
+   "title": "A return or a repair",
+   "prompt": "Think of a time this week you left your window and came back, even partway. What helped? What did the part that left seem to need?",
+   "style": "parts",
+   "focus": "Stay in this week and in the present. Do not ask what the part is reacting to from the past.",
+   "placeholder": "For example: the Guard went on high alert at the noise, then I looked around...",
+   "eyebrow": "Reflect",
+   "optional": true,
+   "section": "Week 3 · Return and repair"
+  },
+  {
+   "t": "cards",
+   "id": "w4",
+   "title": "Week 4: Rhythm",
+   "cards": [
+    {
+     "h": "Keep",
+     "p": "What helped most? Keep that."
+    },
+    {
+     "h": "Shrink",
+     "p": "What is the bad-day version? One look around the room counts."
+    },
+    {
+     "h": "Drop",
+     "p": "Anything that feels like another thing to perform. Drop it, and tell me."
+    }
+   ],
+   "intro": "You will probably not keep doing everything forever. Good. Let's find the smallest version that still works.",
+   "eyebrow": "This week",
+   "section": "Week 4 · Rhythm"
+  },
+  {
+   "t": "reflect",
+   "id": "w4-reflect",
+   "title": "My rhythm",
+   "prompt": "What do you want to keep, shrink, or drop? What is your tiny version for a hard day?",
+   "style": "plan",
+   "placeholder": "For example: keep orienting each morning, drop the evening check-in...",
+   "eyebrow": "Reflect",
+   "optional": true,
+   "section": "Week 4 · Rhythm"
+  },
+  {
+   "t": "share",
+   "id": "share",
+   "title": "Bringing this to me",
+   "section": "Bringing it home"
+  },
+  {
+   "t": "closing",
+   "id": "close",
+   "title": "What to bring to session",
+   "text": "Four weeks of steadiness, built in small doses.",
+   "items": [
+    "What do we want to keep, shrink, or drop?",
+    "Which parts were most active, and what did they seem to need?",
+    "Where did coming back happen, even a little?"
+   ],
+   "next": [
+    {
+     "id": "trauma-intro",
+     "label": "Revisit Steady Ground"
+    }
+   ],
+   "section": "Bringing it home"
+  }
+ ]
+}

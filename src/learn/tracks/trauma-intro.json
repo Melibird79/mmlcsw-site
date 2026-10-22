@@ -1,0 +1,343 @@
+{
+ "id": "trauma-intro",
+ "title": "Steady Ground",
+ "short": "Trauma · Part 1",
+ "kind": "module",
+ "screens": [
+  {
+   "t": "cover",
+   "id": "cover",
+   "eyebrow": "A mini-course for my clients · Trauma",
+   "title": "Steady Ground",
+   "sub": "Meet your nervous system, and learn two breaths for staying in your window",
+   "byline": "About 15 minutes. Writing is optional."
+  },
+  {
+   "t": "intro",
+   "id": "intro",
+   "title": "Before we begin",
+   "blocks": [
+    {
+     "h": "What this is",
+     "p": "A short introduction to how your nervous system works, with a few practices you can use alone. It is about the present: your body, this room, today."
+    },
+    {
+     "h": "What we will not do",
+     "p": "We will not go into what happened. You never have to write about it or tell it here. If you start to, the AI helper will gently bring us back to now and point you to a real person."
+    },
+    {
+     "h": "You are in charge",
+     "p": "Skip anything. Keep your eyes open. Stop whenever you like. If something does not fit your body, that is useful to know."
+    },
+    {
+     "h": "A note about breath",
+     "p": "Paying attention to breathing is uncomfortable for some people, and that makes sense. If it is for you, skip those parts and tell me."
+    }
+   ],
+   "lead": "I send this when I think it will help, usually a couple of weeks into our work. Not everyone gets every course, and that is on purpose.",
+   "note": "This is not therapy. The reflections are written by an AI helper, not by me. If today is a hard day, come back another time. If you are in crisis, call or text 988, or call 911."
+  },
+  {
+   "t": "consent",
+   "id": "consent"
+  },
+  {
+   "t": "explainer",
+   "id": "gasbrake",
+   "title": "Your body's gas and brake",
+   "scene": "gasbrake",
+   "frames": [
+    "Your nervous system has a gas pedal and a brake.",
+    "The gas revs you up to meet something. The brake slows you down so you can rest and recover.",
+    "Regulation is using both smoothly, so your energy matches the moment. That middle zone is your window of tolerance, a phrase from Dr. Dan Siegel.",
+    "When your body has learned to expect danger, the gas can stick. Alert, braced, on edge.",
+    "Or the brake can slam on. Quiet, far away, numb. Both were once smart ways to cope.",
+    "Regulation also includes the way back: easing off one pedal, a little at a time."
+   ],
+   "eyebrow": "Regulation basics",
+   "note": "Nothing here is about being calm all the time. It is about having both pedals work, and finding your way back to the middle.",
+   "section": "Regulation basics"
+  },
+  {
+   "t": "checkin",
+   "id": "state",
+   "title": "Where is your body right now?",
+   "prompt": "No right answer. Pick the closest one. This is a ten-second check you can do any time.",
+   "routes": {
+    "revved": {
+     "text": "Thank you for telling the truth about it. Orienting comes first, and it is on the next few screens.",
+     "goto": "orient",
+     "label": "Skip ahead to orienting"
+    },
+    "window": {
+     "text": "Good. This is a fine moment to learn something new, so keep going.",
+     "goto": null,
+     "label": null
+    },
+    "low": {
+     "text": "Okay. Powered down needs gentle input, not more quiet. Orienting is a good friend for this.",
+     "goto": "orient",
+     "label": "Skip ahead to orienting"
+    },
+    "unsure": {
+     "text": "That counts. \"I can't tell\" is an honest state. Orienting helps with exactly that.",
+     "goto": "orient",
+     "label": "Try orienting"
+    }
+   },
+   "eyebrow": "Try it",
+   "section": "Regulation basics"
+  },
+  {
+   "t": "video",
+   "id": "welcome",
+   "title": "Welcome: what we will and will not do here",
+   "minutes": 2,
+   "summary": "How this course stays in the present, how you stay in charge, and what flooding is and why we avoid it.",
+   "bullets": [
+    "We stay with now, not with what happened",
+    "You choose what to try and what to skip",
+    "What regulation means, and what the Pause button is for"
+   ],
+   "section": "Regulation basics"
+  },
+  {
+   "t": "explainer",
+   "id": "flood-cartoon",
+   "title": "What happens in your body when the alarm goes off",
+   "scene": "flooding",
+   "frames": [
+    "Your brain has a smoke alarm. Its job is to notice danger fast, before you have time to think. For some of us, it learned to be extra sensitive.",
+    "When it goes off, your body gets ready. Heart speeds up, muscles brace, breath goes shallow. That is the gas pedal.",
+    "When the alarm is very loud, the thinking part of your brain works less well. Words get hard, memory gets patchy, and everything feels urgent. This is flooding.",
+    "Flooding can also be quiet. The brake slams on and things go numb, foggy, or far away. Same cause, different direction.",
+    "The alarm can be told it is safe. A long exhale, your feet on the floor, and looking around the room all send that message. The thinking brain comes back."
+   ],
+   "eyebrow": "The body's alarm response",
+   "section": "When the alarm goes off"
+  },
+  {
+   "t": "cards",
+   "id": "flooding",
+   "title": "Flooding",
+   "cards": [
+    {
+     "h": "Loud or quiet",
+     "p": "Racing and wired, or blank and far away. Both are the alarm system pushed past your window."
+    },
+    {
+     "h": "It changes what helps",
+     "p": "While you are flooded, calming the body works better than talking it through. That is why this course starts with regulation and goes in small doses."
+    },
+    {
+     "h": "A note about the AI helper",
+     "p": "If you write something big here, the helper will gently point you to a real person. That is not rejection of you or your story. When someone is flooded, a calmer body and a human come first."
+    }
+   ],
+   "intro": "Flooding is what you just saw: feelings, or shutdown, arriving faster than your thinking can keep up. It is not a flaw. It is a nervous system doing its job.",
+   "eyebrow": "The word for it",
+   "section": "When the alarm goes off"
+  },
+  {
+   "t": "practice",
+   "id": "orient",
+   "title": "Here, now, this room",
+   "steps": [
+    "Let your head and eyes turn slowly. Take in the room one piece at a time.",
+    "Find something in a color you like. Rest your eyes there.",
+    "Notice one sound near you and one sound farther away.",
+    "Feel your feet and what is holding you. Say, \"It is today. I am here.\""
+   ],
+   "lead": "Orienting is the first skill, before any breath work. It tells your body where it is and when it is.",
+   "eyebrow": "Orienting · 1 to 2 minutes",
+   "guide": [
+    {
+     "text": "Let your eyes move slowly around the room. No hurry.",
+     "secs": 10
+    },
+    {
+     "text": "Find something you like the look of. Let your eyes rest on it.",
+     "secs": 10
+    },
+    {
+     "text": "Notice one sound close to you and one sound farther away.",
+     "secs": 10
+    },
+    {
+     "text": "Feel your feet on the floor. Press them down a little.",
+     "secs": 10
+    },
+    {
+     "text": "Feel what is holding you up: the chair, the bed, the floor.",
+     "secs": 10
+    },
+    {
+     "text": "Say, out loud or in your head: \"It is today. I am here.\"",
+     "secs": 10
+    },
+    {
+     "text": "Let your breath do whatever it wants. You do not have to manage it.",
+     "secs": 10
+    }
+   ],
+   "guideTitle": "A guided minute",
+   "guideEnd": "Good. Notice if anything is even a little different.",
+   "cautions": [
+    "Eyes stay open.",
+    "If anything feels strange, look at something familiar and say today's date out loud."
+   ],
+   "section": "Practice"
+  },
+  {
+   "t": "reflect",
+   "id": "then-now",
+   "title": "This room, today",
+   "prompt": "Look around where you are. What is one thing in the room that tells your body, \"It is today. I am here\"?",
+   "style": "orient",
+   "helper": "Stay in the room. There is no need to think about anything from before.",
+   "placeholder": "For example: the blue mug I bought last spring...",
+   "eyebrow": "Reflect",
+   "optional": true,
+   "section": "Practice"
+  },
+  {
+   "t": "cards",
+   "id": "parts",
+   "title": "Parts, lightly",
+   "cards": [
+    {
+     "h": "The Guard",
+     "p": "Stays alert and scans the room. It would rather be wrong a hundred times than caught off guard once."
+    },
+    {
+     "h": "The Tender One",
+     "p": "Younger, quiet, hurt. It does not need fixing. It needs company and a slower pace."
+    },
+    {
+     "h": "The Carry-On Part",
+     "p": "Gets up, goes to work, makes dinner. It keeps life moving, and it gets tired."
+    }
+   ],
+   "intro": "Parts language is a way of describing the different reactions we all have. You do not have to take it literally.",
+   "eyebrow": "A kinder way to talk about it",
+   "note": "You do not need to know where any of this came from. Just notice what each one is doing for you now.",
+   "section": "Practice"
+  },
+  {
+   "t": "video",
+   "id": "breaths",
+   "title": "Two breaths: a practice and a tool",
+   "minutes": 3,
+   "summary": "How I think about practice versus tools, why small doses win, and a quick tour of the toning breath and the cooling breath, including who should skip them.",
+   "bullets": [
+    "Practice when you are steady, tool when you are not",
+    "Meet the three-part toning breath",
+    "When the cooling breath helps, and what to do instead if breath work is not for you"
+   ],
+   "section": "Practice"
+  },
+  {
+   "t": "practice",
+   "id": "toning",
+   "title": "The three-part toning breath",
+   "steps": [
+    "Sit or stand with your feet on the floor. Keep your eyes open if that feels better. Resting a hand on something solid, like a table, can help.",
+    "Breathe in through your nose in three small sips. First low in the belly, then the ribs, then the top of your chest.",
+    "Breathe out slowly with a soft hum, an \"mmm\" or a \"voo\". Let the sound fade to the very end of the breath. Keep your jaw loose.",
+    "Do three to five rounds. Then rest and breathe normally for a moment."
+   ],
+   "lead": "Once orienting feels okay, you can add this as a daily practice. It is for when you are steady enough, not for emergencies.",
+   "eyebrow": "Daily practice · 2 to 3 minutes",
+   "pacer": "toning",
+   "pacerTitle": "Breathe along",
+   "cautions": [
+    "Never strain. The breath and the hum both stay easy.",
+    "No breath holds in this one.",
+    "Paying attention to the breath can feel exposed. You can hum without counting, or skip this and orient instead. Either is a good choice.",
+    "If you feel dizzy, tingly, or far away, stop and breathe normally. Look around the room and say today's date."
+   ],
+   "note": "Many people find a long, humming out-breath settles them. It does not work the same for everyone, and it is not a cure. We are running a small experiment, with you in charge.",
+   "section": "Practice"
+  },
+  {
+   "t": "practice",
+   "id": "cooling",
+   "title": "The cooling breath",
+   "steps": [
+    "Curl your tongue into a tube and sip air through it, like a straw. If you cannot curl your tongue, purse your lips as if sipping through a straw. Feel the cool air.",
+    "Close your mouth and breathe out slowly through your nose, longer than the sip in.",
+    "Do six rounds. Then breathe normally and notice. Cooler? Steadier? The same? All of that is fine."
+   ],
+   "lead": "For when you are hot, wired, snappy, or spinning. Think of it as a small fan for your nervous system.",
+   "eyebrow": "A tool for when you are revved up",
+   "pacer": "cooling",
+   "pacerTitle": "Breathe along",
+   "cautions": [
+    "Skip it if cool air bothers your chest, or if you are sick or having an asthma flare. A slow breath out is plenty.",
+    "Skip it if you are powered down, flat, or sleepy. It can push you lower. Use feet, seat, room instead.",
+    "If it makes you more anxious, stop. Tell me about it in session. If paying attention to your breath turns the volume up, use the orienting practice instead."
+   ],
+   "section": "Practice"
+  },
+  {
+   "t": "practice",
+   "id": "edge",
+   "title": "If you notice flooding",
+   "steps": [
+    "Stop what you are doing. Noticing is the skill, and you just did it.",
+    "If memories or images come up, you do not have to follow them or push them away. Open your eyes and name where you are.",
+    "Feel your feet. Look around slowly. Say today's date.",
+    "Breathe normally. If it feels okay, let the out-breath run a little longer.",
+    "Come back to the course later, or tell me."
+   ],
+   "lead": "Flooding can be loud or quiet. Either way, the first move is the same: slow down and come back to now.",
+   "eyebrow": "Your edge · 1 minute",
+   "guide": [
+    {
+     "text": "Let your eyes move slowly around the room.",
+     "secs": 8
+    },
+    {
+     "text": "Find something you like the look of. Rest your eyes on it.",
+     "secs": 8
+    },
+    {
+     "text": "Feel your feet. Press them down a little.",
+     "secs": 8
+    },
+    {
+     "text": "Say, out loud or in your head: \"It is today. I am here.\"",
+     "secs": 8
+    }
+   ],
+   "guideTitle": "A guided half-minute",
+   "guideEnd": "Good. Notice if anything is even a little different.",
+   "note": "If you write something big in this course, the AI helper will point you to a real person. That is not a rejection. When you are flooded, a calmer body and a human come first. If you ever feel unsafe, call or text 988, or call 911.",
+   "section": "Practice"
+  },
+  {
+   "t": "share",
+   "id": "share",
+   "title": "Bringing this to me",
+   "section": "Practice"
+  },
+  {
+   "t": "closing",
+   "id": "close",
+   "title": "What to bring to session",
+   "text": "You did something kind for your nervous system today.",
+   "items": [
+    "Which practice felt okay, and which one did not?",
+    "Which part was loudest this week?",
+    "Did you notice any flooding, loud or quiet, and what helped you remember it is now?"
+   ],
+   "next": [
+    {
+     "id": "trauma-plan",
+     "label": "Open the practice plan"
+    }
+   ],
+   "section": "Practice"
+  }
+ ]
+}

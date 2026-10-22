@@ -1,0 +1,265 @@
+{
+ "id": "burnout-plan",
+ "title": "Four Weeks of Small Doses",
+ "short": "Burnout · Practice plan",
+ "kind": "plan",
+ "screens": [
+  {
+   "t": "cover",
+   "id": "cover",
+   "eyebrow": "A practice plan for my clients · Burnout",
+   "title": "Four Weeks of Small Doses",
+   "sub": "Deepening what you started, one return at a time",
+   "byline": "Set-up takes about 15 minutes. After that, five to ten minutes on most days."
+  },
+  {
+   "t": "intro",
+   "id": "intro",
+   "title": "How the plan works",
+   "blocks": [
+    {
+     "h": "Five to ten minutes",
+     "p": "On most days. That is the dose. More is not better here."
+    },
+    {
+     "h": "Missed a day?",
+     "p": "Nothing is lost. Coming back is the practice. This plan is about getting back, not about never leaving."
+    },
+    {
+     "h": "Come back each week",
+     "p": "Use the section name at the top to jump to your week. Each week takes about four minutes to read and set up."
+    },
+    {
+     "h": "Not for everyone",
+     "p": "I give this plan to people when it fits. If it ever feels like one more thing to perform, tell me and we will change it."
+    }
+   ],
+   "note": "Finished Running on Fumes first? Good, this builds on it. If not, start there."
+  },
+  {
+   "t": "consent",
+   "id": "consent"
+  },
+  {
+   "t": "statement",
+   "id": "idea",
+   "text": "Regulation is not staying calm. It is getting back.",
+   "sub": "Everyone floods sometimes, loud or quiet. Repair is the skill.",
+   "eyebrow": "The idea"
+  },
+  {
+   "t": "cards",
+   "id": "rhythm",
+   "title": "The four weeks",
+   "cards": [
+    {
+     "h": "Week 1: Notice",
+     "p": "One daily practice and two quick check-ins. You are collecting information."
+    },
+    {
+     "h": "Week 2: Return",
+     "p": "Practice coming back when you notice you have left your window."
+    },
+    {
+     "h": "Week 3: Repair",
+     "p": "Make amends with yourself, and with the part that did the snapping."
+    },
+    {
+     "h": "Week 4: Rhythm",
+     "p": "Decide what stays, in the smallest version that still works."
+    }
+   ],
+   "eyebrow": "The shape of it"
+  },
+  {
+   "t": "video",
+   "id": "overview",
+   "title": "How the four weeks fit together",
+   "minutes": 2,
+   "summary": "A walk through the plan, how to shrink it on a bad week, and what to bring to session.",
+   "bullets": [
+    "What each week is for",
+    "How to shrink the plan when you are flooded or worn out",
+    "What to bring to session"
+   ]
+  },
+  {
+   "t": "cards",
+   "id": "w1",
+   "title": "Week 1: Notice",
+   "cards": [
+    {
+     "h": "Once a day",
+     "p": "The three-part toning breath, same time most days. After brushing your teeth or before the first coffee works well."
+    },
+    {
+     "h": "Twice a day",
+     "p": "A ten-second check-in: revved up, in your window, or powered down? Just notice."
+    },
+    {
+     "h": "Once this week",
+     "p": "Pick one early signal: the first body sign that you are drifting toward flooding."
+    }
+   ],
+   "intro": "This week you are collecting information, not fixing anything.",
+   "eyebrow": "This week",
+   "section": "Week 1 · Notice"
+  },
+  {
+   "t": "tracker",
+   "id": "w1-track",
+   "title": "Week 1 tracker",
+   "rows": [
+    "Toning breath",
+    "Check-in (morning)",
+    "Check-in (evening)"
+   ],
+   "intro": "Tick a box when you do it. Skipped days are just days.",
+   "eyebrow": "Track",
+   "section": "Week 1 · Notice"
+  },
+  {
+   "t": "reflect",
+   "id": "w1-reflect",
+   "title": "What did you notice this week?",
+   "prompt": "When did you drift away from your window, and what was happening just before? Was any part of you in charge then?",
+   "style": "plan",
+   "placeholder": "For example: Tuesday afternoon after the call, my Driver took over...",
+   "eyebrow": "Reflect",
+   "optional": true,
+   "section": "Week 1 · Notice"
+  },
+  {
+   "t": "cards",
+   "id": "w2",
+   "title": "Week 2: Return",
+   "cards": [
+    {
+     "h": "Revved up",
+     "p": "Cooling breath, then feet, seat, room. Notice how long it takes to settle. There is no right answer, only a number to be curious about."
+    },
+    {
+     "h": "Powered down",
+     "p": "Skip the cooling breath. Move a little, look around, say today's date. Try again later."
+    },
+    {
+     "h": "Catch the small win",
+     "p": "When something shifts, stay with it for one more breath and ask yourself what that is like."
+    }
+   ],
+   "intro": "Leaving your window is human. The return has four moves: notice you have left, name it (\"a part of me is revved up\"), choose a tool, then notice again what is even slightly different.",
+   "eyebrow": "This week",
+   "section": "Week 2 · Return"
+  },
+  {
+   "t": "tracker",
+   "id": "w2-track",
+   "title": "Week 2 tracker",
+   "rows": [
+    "Toning breath",
+    "A return (any size)",
+    "A small shift noticed"
+   ],
+   "intro": "A return can be tiny. One slow breath out counts.",
+   "eyebrow": "Track",
+   "section": "Week 2 · Return"
+  },
+  {
+   "t": "video",
+   "id": "repair-video",
+   "title": "Repair: what to do after you have left your window",
+   "minutes": 3,
+   "summary": "Why repair matters more than perfection, and how to make amends with yourself and the part that snapped.",
+   "bullets": [
+    "Rupture and repair are normal",
+    "Settle first, then repair",
+    "A small repair counts"
+   ],
+   "section": "Week 3 · Repair"
+  },
+  {
+   "t": "practice",
+   "id": "w3-repair",
+   "title": "Repair, in five moves",
+   "steps": [
+    "Settle first. A few slow breaths. Repair goes badly when you are still flooded.",
+    "Say what happened plainly, with no verdict: \"I snapped at Sam.\"",
+    "Thank the part that did it: \"You were trying to protect me from something.\"",
+    "Ask what it needed. Listen for a word or a feeling, not a fix.",
+    "Offer that part one small thing, and the other person one small repair if there is one."
+   ],
+   "lead": "Keep the parts language light.",
+   "eyebrow": "For after you snapped, shut down, or went quiet",
+   "note": "Repair is not about being perfect. It is about not leaving yourself, or anyone else, alone in it.",
+   "section": "Week 3 · Repair"
+  },
+  {
+   "t": "reflect",
+   "id": "w3-reflect",
+   "title": "A repair",
+   "prompt": "Think of a time this week you left your window. What part of you was in charge, and what do you think it needed? What would you like to try next time?",
+   "style": "parts",
+   "placeholder": "For example: the Pleaser said yes to something I had no room for...",
+   "eyebrow": "Reflect",
+   "optional": true,
+   "section": "Week 3 · Repair"
+  },
+  {
+   "t": "cards",
+   "id": "w4",
+   "title": "Week 4: Rhythm",
+   "cards": [
+    {
+     "h": "Keep",
+     "p": "What helped most? Keep that."
+    },
+    {
+     "h": "Shrink",
+     "p": "What is the bad-day version? One breath counts."
+    },
+    {
+     "h": "Drop",
+     "p": "Anything that feels like another thing to perform. Drop it, and tell me."
+    }
+   ],
+   "intro": "You will probably not keep doing everything forever. Good. Let's find the smallest version that still works.",
+   "eyebrow": "This week",
+   "section": "Week 4 · Rhythm"
+  },
+  {
+   "t": "reflect",
+   "id": "w4-reflect",
+   "title": "My rhythm",
+   "prompt": "What do you want to keep, shrink, or drop? What is your one-breath version for a bad day?",
+   "style": "plan",
+   "placeholder": "For example: keep the morning hum, shrink the check-ins to one a day...",
+   "eyebrow": "Reflect",
+   "optional": true,
+   "section": "Week 4 · Rhythm"
+  },
+  {
+   "t": "share",
+   "id": "share",
+   "title": "Bringing this to me",
+   "section": "Bringing it home"
+  },
+  {
+   "t": "closing",
+   "id": "close",
+   "title": "What to bring to session",
+   "text": "Four weeks of kindness to a nervous system.",
+   "items": [
+    "What do we want to keep, shrink, or drop?",
+    "Which parts were most active, and what did they need?",
+    "Where did repair happen, even a little?"
+   ],
+   "next": [
+    {
+     "id": "burnout-intro",
+     "label": "Revisit Running on Fumes"
+    }
+   ],
+   "section": "Bringing it home"
+  }
+ ]
+}

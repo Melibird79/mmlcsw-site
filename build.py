@@ -91,7 +91,7 @@ for f in sorted(SRC.glob("*.html")):
 for f in SRC.iterdir():
     if f.is_file() and f.suffix not in (".html",):
         shutil.copy(f, DIST / f.name)
-for sub in ("img",):
+for sub in ("img", "learn"):  # learn = the client mini-courses (copied from client-tracks/dist)
     if (SRC / sub).exists():
         shutil.copytree(SRC / sub, DIST / sub)
 

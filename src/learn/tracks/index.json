@@ -1,0 +1,26 @@
+[
+ {
+  "id": "burnout-intro",
+  "title": "Running on Fumes",
+  "blurb": "A 15-minute introduction to your nervous system, with two breaths and a way back from flooding.",
+  "kind": "module"
+ },
+ {
+  "id": "trauma-intro",
+  "title": "Steady Ground",
+  "blurb": "A 15-minute introduction to your nervous system, with orienting, two breaths, and a way back from flooding.",
+  "kind": "module"
+ },
+ {
+  "id": "burnout-plan",
+  "title": "Four Weeks of Small Doses",
+  "blurb": "A four-week plan that deepens regulation and repair after the Running on Fumes course.",
+  "kind": "plan"
+ },
+ {
+  "id": "trauma-plan",
+  "title": "Four Weeks of Steady Ground",
+  "blurb": "A four-week plan that deepens regulation and repair after the Steady Ground course.",
+  "kind": "plan"
+ }
+]
