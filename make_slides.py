@@ -13,7 +13,7 @@ SRC = Path(__file__).parent / "src"
 WELCOME = ("Welcome", """
 <p class="big">I'm glad you're here.</p>
 <p>This takes about eight minutes. It covers what to expect, how sessions work, how money and cancelling work, and how to reach me. You can stop and come back any time.</p>
-<p>A little about me. I'm a licensed clinical social worker. I work with trauma, burnout and the kind of tired that comes from holding it together for everyone else. I use a lot of metaphors and some humor, and I explain what I'm doing and why. I'm neurodivergent myself, so I know some of this from the inside.</p>
+<p>A little about me. I'm a licensed clinical social worker. I work with trauma, burnout and the kind of tired that comes from holding it together for everyone else. I use a lot of metaphors and some humor. I'm neurodivergent myself, so I know some of this from the inside.</p>
 """)
 
 ROADMAP = ("What happens, in order", """
@@ -26,32 +26,22 @@ ROADMAP = ("What happens, in order", """
 """)
 
 HOW_I_WORK = ("How I work", """
-<p>Talking helps, and some things live in the body where words don't reach. I'm trained in EMDR and the Flash Technique, and I use parts work and body-based practices alongside conversation. The point is to include your nervous system, not only your thoughts.</p>
-<ul>
-<li>You set the pace. You can say "slower," "skip that" or "not today" at any point.</li>
-<li>You won't have to retell your whole story to start.</li>
-<li>Most sessions end with one small practice, five minutes or less, to try on your own.</li>
-</ul>
-<p class="note">I'm trained in these methods, not certified in them. I'll tell you what I'm using and why.</p>
+<p>Talking helps, and some things live in the body where words don't reach. I'm trained in EMDR and the Flash Technique, and depending on what fits, I use parts work and body-based practices alongside conversation. The point is to include your nervous system, not only your thoughts.</p>
+<p class="note">I'm trained in these methods, not certified in them.</p>
 """)
 
 VIDEO = ("Sessions by video", """
-<p>All my sessions are by secure video, through your client portal. A few practical things:</p>
+<p>Sessions are by secure video, through your client portal. A few practical things:</p>
 <ul>
 <li><strong>You must be in California</strong> during every session. I'm licensed in California, and that's where the law lets me work with you. Traveling? Tell me ahead of time.</li>
 <li>Find a private spot. Headphones help a lot if anyone might overhear.</li>
 <li>Use a device with a camera and microphone, and a steady connection.</li>
-<li>If the connection drops, I'll try to reconnect for a few minutes. If that doesn't work, I'll call the number you gave me, so keep your phone nearby.</li>
+<li>If the connection drops, I'll reconnect or call the number you gave me, so keep your phone nearby.</li>
 </ul>
 """)
 
 FIRST_SESSION = ("Your first session", """
-<p>We start with a few practical questions: where you are, a phone number, and an emergency contact. Then we talk about what brought you here.</p>
-<ul>
-<li>You decide how much to share. There's no test and no wrong answer.</li>
-<li>I'll ask about what you want to be different, and what you've already tried.</li>
-<li>At the end, I'll tell you honestly how I'd work with you and what a good next few weeks could look like. If I don't think I'm the right fit, I'll say so and help you find someone who is.</li>
-</ul>
+<p>We start with a few practical questions: where you are, a phone number, and an emergency contact. Then we talk about what brought you here, at whatever pace feels right. If I don't think I'm the right fit, I'll say so and help you find someone who is.</p>
 """)
 
 PRIVACY = ("Privacy, and where it stops", """
@@ -67,11 +57,9 @@ PRIVACY = ("Privacy, and where it stops", """
 SAFETY = ("If things get hard between sessions", """
 <p>Hard stretches happen, and they're a normal part of this work. Here's what to do.</p>
 <ul>
-<li>Use the small practice from our session, and write down what you notice so we can talk about it.</li>
 <li>Message me in the portal. I reply within one business day. I'm not an emergency service, and I don't watch messages for emergencies.</li>
 <li><strong>If you might hurt yourself, or you're in crisis, call or text 988.</strong> In an emergency, call 911 or go to the nearest emergency room.</li>
 </ul>
-<p>We'll make a simple safety plan together early on. Everyone gets one. It isn't a sign anything is wrong.</p>
 """)
 
 CONTACT = ("Staying in touch", """
@@ -79,7 +67,7 @@ CONTACT = ("Staying in touch", """
 <li><strong>Client portal:</strong> the best place for anything about your care, scheduling and forms.</li>
 <li><strong>Email:</strong> <a href="mailto:{{EMAIL}}">{{EMAIL}}</a>, for logistics. Keep clinical details for sessions or the portal.</li>
 <li><strong>Phone and text:</strong> {{PHONE}}. Text me for scheduling and quick check-ins. I may not answer live, so leave a message or text.</li>
-<li><strong>My hours:</strong> I see clients Monday through Thursday. I reply to messages within one business day.</li>
+<li><strong>My hours:</strong> I'm available Monday through Thursday. I reply to messages within one business day, and I don't check messages on Fridays, weekends or holidays.</li>
 </ul>
 """)
 
@@ -136,7 +124,7 @@ CASH_MONEY = ("Fees and payment", """
 CASH_CANCEL = ("Cancelling or rescheduling", """
 <p>Life gets in the way, and I get that. Please tell me by <strong>3:00 PM the day before</strong> your session if you need to cancel or change it. That gives me time to offer the slot to someone else.</p>
 {CALC}
-<p>If you cancel after that, or miss the session, the full session fee applies. If something truly out of your control happens, such as an illness, an accident or a family crisis, tell me. I'd rather hear it and talk it through with you.</p>
+<p>If you cancel after that, or miss the session, the full session fee applies. If something truly out of your control happens, tell me and I'll consider it. If sessions are repeatedly missed, I may stop scheduling you.</p>
 """)
 
 INS_MONEY = ("How insurance works with me", """
@@ -166,7 +154,7 @@ INS_ASK = ("Questions to ask your insurance", """
 INS_CANCEL = ("Cancelling or rescheduling", """
 <p>Please tell me by <strong>3:00 PM the day before</strong> your session if you need to cancel or change it. That gives me time to offer the slot to someone else.</p>
 {CALC}
-<p>If you cancel after that, or miss the session, the full session fee applies. Insurance doesn't reimburse missed sessions. If something truly out of your control happens, tell me. I'd rather hear it and talk it through with you.</p>
+<p>If you cancel after that, or miss the session, the full session fee applies. Insurance doesn't reimburse missed sessions. If something truly out of your control happens, tell me and I'll consider it. If sessions are repeatedly missed, I may stop scheduling you.</p>
 """)
 
 MC_MONEY = ("Your Medi-Cal coverage", """
@@ -191,8 +179,7 @@ MC_LEVEL = ("Is this the right level of care?", """
 MC_CANCEL = ("Cancelling and missed sessions", """
 <p>Missing a session never costs you money. It does cost another person a spot, and it costs you momentum, so please tell me as early as you can.</p>
 {CALC}
-<p>Here's the deadline I ask for: <strong>3:00 PM the day before</strong>. If you miss a few sessions in a row, I'll check in with you first. We'll talk about what's getting in the way and whether a different day, time or plan would help.</p>
-<p class="note">This isn't a punishment system. It's a way to keep your time protected and the schedule fair.</p>
+<p>Here's the deadline I ask for: <strong>3:00 PM the day before</strong>. After three late cancellations or no-shows within a year, I end treatment. As with any client, I may also stop scheduling you if sessions are repeatedly missed.</p>
 """)
 
 DECKS = {
